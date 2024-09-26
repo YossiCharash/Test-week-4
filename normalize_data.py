@@ -12,7 +12,7 @@ def normalize_db():
         host="localhost",
         port="5432"
     )
-
+#create tablse
     try :
         query1 = """
             CREATE TABLE IF NOT EXISTS target_country (

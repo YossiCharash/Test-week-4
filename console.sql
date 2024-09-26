@@ -22,5 +22,5 @@ ON mission(location_and_city_id);
 
 explain analyse select missions_wwii.public.mission.location_and_city_id
 from mission
-where missions_wwii.public.mission.location_and_city_id = 35
+where missions_wwii.public.mission.location_and_city_id = 35;
 
