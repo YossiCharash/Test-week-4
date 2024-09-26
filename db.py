@@ -1,9 +1,10 @@
 import psycopg2
+from flask_sqlalchemy import SQLAlchemy
 from psycopg2 import pool
 
+# from model import Mission
 
-
-
+db = SQLAlchemy
 
 
 
